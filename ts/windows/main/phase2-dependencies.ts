@@ -33,7 +33,6 @@ window.WebAPI = window.textsecure.WebAPI.initialize({
     2: config.cdnUrl2,
     3: config.cdnUrl3,
   },
-  certificateAuthority: config.certificateAuthority,
   contentProxyUrl: config.contentProxyUrl,
   proxyUrl: config.proxyUrl,
   version: config.version,
