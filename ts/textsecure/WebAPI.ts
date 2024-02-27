@@ -1268,7 +1268,7 @@ export function initialize({
     throw new Error('WebAPI.initialize: Missing CDN 3 configuration');
   }
   if (!isString(certificateAuthority)) {
-    throw new Error('WebAPI.initialize: Invalid certificateAuthority');
+    //throw new Error('WebAPI.initialize: Invalid certificateAuthority');
   }
   if (!isString(contentProxyUrl)) {
     throw new Error('WebAPI.initialize: Invalid contentProxyUrl');
